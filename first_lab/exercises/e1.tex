@@ -1,0 +1,67 @@
+
+\section{Definitions}\label{owasp}\cite{owasp}
+
+
+\subsection{SQL injection}
+     The SQL injection attack consists of the insertion or “injection” of an SQL query via the input data from the client into the application. A successful SQL injection exploit can read sensitive data from the database, modify database data (Insert/Update/Delete), execute administration operations on the database (such as shutdown the DBMS), recover the content of a given file present on the DBMS file system and in some cases issue commands to the operating system.
+     
+    SQL injection attacks are injection attacks in which SQL commands are injected into data-plane input to affect the execution of predefined SQL commands. 
+    SQL injection attacks typically occur when the user inputs of a web application are not sanitized or validated properly. For instance, the most used generic payloads are the following ASCII characters :
+    \begin{itemize}
+        \item ''
+        \item `
+        \item ``
+        \item ,
+        \item "
+        \item ""
+        \item /
+        \item //
+    \end{itemize}
+    
+\subsection{Cross-site scripting (XSS)}
+    Cross-site scripting (XSS) attacks are a type of injection in which malicious scripts are injected into otherwise benign and trusted websites. XSS attacks occur when an attacker uses a web application to send malicious code, generally in the form of a browser-side script, to a different end user.  
+    
+    Flaws that allow these attacks to succeed are quite widespread and occur anywhere a web application uses input from a user within the output it generates without validating or encoding it. 
+    Currently, a variety of XSS attacks can be categorized as follows: 
+    \begin{itemize}
+        \item Stored XSS attacks 
+        \item Reflected XSS attacks.
+    \end{itemize}
+    The most common payloads are: 
+    \begin{itemize}
+            \item <script> alert(“Hello XSS”) </script>
+            \item <body onload=alert('Hello XSS') />
+    \end{itemize}
+    If the execution of the arbitrary JavaScript function alert() is successful, the web page is vulnerable to XSS.
+    
+\subsection{Command injection}
+    
+        Command injection vulnerability refers to the ability to inject arbitrary code into the target machine. Command injection has various use cases, and it is used to compromise vulnerable software that is running on a targeted host. The probability of occurrence regarding this vulnerability is low. 
+        However, it can lead to potential system takeover and reverse shell if abused correctly.
+    
+\subsection{Cross-site request forgery (XSRF)}
+    
+        CSRF or XSRF stands for Cross-Site Request Forgery. It's a type of security exploit where an attacker tricks a user into unknowingly executing actions on a website they are authenticated with. 
+        
+        In a CSRF attack, the attacker's goal is to cause an innocent victim to unknowingly submit a maliciously crafted web request to a website that the victim has privileged access to. This web request can be crafted to include URL parameters, cookies and other data that appear normal to the web server processing the request.  
+        
+        At risk are web applications that perform actions based on input from trusted and authenticated users without requiring the user to authorize (e.g., via a popup confirmation) the specific action. A user who is authenticated by a cookie saved in the user's web browser could unknowingly send an HTTP request to a site that trusts the user and thereby cause an unwanted action. 
+        
+        Usually, this attack is executed with malicious URL crafting. 
+        The exploit URL can be disguised as an ordinary link, encouraging the victim to click it.
+    
+\subsection{Path disclosure}
+
+    Path disclosure vulnerabilities occur when a web application or system reveals sensitive information about its file structure or internal paths to an attacker. 
+    This information disclosure can happen in various ways, such as error messages, debug output, or direct responses from the application.
+    
+\subsection{Remote code execution}
+
+        Remote code execution allows the attacker to execute malicious arbitrary code on the target machine remotely thus giving him access to the machine and potentially giving him access to the resources of the machine. RCE, or Remote Code Execution, vulnerabilities are among the most severe security issues a system can face. They allow attackers to execute arbitrary code on a target system remotely, which means they can take full control of the system and potentially access, modify, or delete sensitive data, install malware, or use the system for further attacks. The severity of an RCE vulnerability depends on various factors, including the context in which it occurs, the level of access the attacker gains, and the potential impact on the affected system and its users.
+
+\subsection{Open redirect}
+
+        An open redirect vulnerability occurs when a web application takes a parameter from the user and redirects them to the value of that parameter without proper validation. This can be exploited by attackers to redirect users to malicious websites, phishing pages, or other harmful content. 
+        \begin{itemize}
+            \item  https:://testwebsite.com/redirect?=https://maliciouswebsite.com
+        \end{itemize}     

@@ -1,0 +1,65 @@
+\documentclass{article}
+\usepackage{graphicx} % Required for inserting images
+\usepackage{titlesec} % Required for customizing section titles
+\usepackage{hyperref}
+\usepackage{listings}
+\usepackage{url}
+\usepackage[T1]{fontenc}
+
+
+
+% Configure hyperref to make URLs clickable without border or color
+\hypersetup{
+    colorlinks=true,
+    urlcolor=blue,
+    linkcolor=blue,
+    citecolor=blue,
+    filecolor=blue,
+    breaklinks=true,
+}
+
+% Redefine \section command to include a period after the section number
+\titleformat{\section}{\normalfont\Large\bfseries}{Exercise \thesection.}{1em}{}
+
+\title{Security Insider Lab II- SS 2024 \\ First Task}
+
+\author{Sayed Alisina Qaderi (112092) \\ Dusan Dordevic (115556) \\ Atiqullah Ahmadzai (112518)}
+\date{April 2024}
+\vskip 2\baselineskip
+% Add university name, professor's name, and assistant's name
+\newcommand{\university}{\textbf{University of Passau}}
+\newcommand{\professor}{Prof. Dr. Joachim Posegga}
+\newcommand{\assistant}{Talaya Farasat \& Aleena Elsa George}
+
+\begin{document}
+
+\maketitle
+\thispagestyle{empty} % Remove the page number from the first page
+
+% University, Professor, and Assistant
+\begin{center}
+    \university \\
+    Professor: \professor \\
+    Assistants: \assistant
+\end{center}
+
+% Table of Contents
+\clearpage
+\tableofcontents
+\thispagestyle{empty} % Remove the page number from the table of contents page
+
+% Exercise 1
+\clearpage
+\input{exercises/e1}
+
+% Exercise 2
+\clearpage
+\input{exercises/e2}
+
+% Bibliography
+\clearpage
+\bibliographystyle{plainurl}
+\bibliography{ref}
+\thispagestyle{empty} % Remove the page number from the reference page
+
+\end{document}
