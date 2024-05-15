@@ -1,35 +1,50 @@
 \chapter{Introduction}\label{chap:introduction}
 
-\section{Example citation \& symbol reference}\label{sec:citation}
-For symbols look at \cite{latex_symbols_2017}.
+This report documents the third exercise of Security Insider Lab 2, detailing our process in training our model and creating the dataset. The exercise comprised six key steps.
+\textbf{Data Collection} : We initiated the process by scraping GitHub and gathering data from 2000 repositories.
+
+\textbf{Keyword Filtering}: Next, we examined the names and readme files of the scraped repositories, filtering out those that aligned with our predefined keywords.
+
+\textbf{Language Segregation}: Our third step involved segregating libraries with Python code from those without.
+
+\textbf{Commit Analysis}: Subsequently, we meticulously traversed the filtered repositories, extracting all differences from their commits.
+
+\textbf{Dataset Acquisition}: In the fifth step, we procured the necessary dataset provided by the central repository, which is crucial for subsequent stages.
+
+\textbf{Model Training}: Finally, we proceeded to train our model based on the acquired dataset from the previous step, completing the exercise.
 
 
-\section{Example reference}
-Example reference: Look at chapter~\ref{chap:introduction}, for sections, look at section~\ref{sec:citation}.
 
-\section{Example image}
+% \section{Example citation \& symbol reference}\label{sec:citation}
+% For symbols look at \cite{latex_symbols_2017}.
 
-\begin{figure}
-	\centering
-	\includegraphics[width=0.5\linewidth]{uni-logo}
-	\caption{Meaningful caption for this image}
-	\label{fig:uniLogo}
-\end{figure}
 
-Example figure reference: Look at Figure~\ref{fig:uniLogo} to see an image. It can be \texttt{jpg}, \texttt{png}, or best: \texttt{pdf} (if vector graphic).
+% \section{Example reference}
+% Example reference: Look at chapter~\ref{chap:introduction}, for sections, look at section~\ref{sec:citation}.
 
-\section{Example table}
+% \section{Example image}
 
-\begin{table}
-	\centering
-	\begin{tabular}{lr}
-		First column & Number column \\
-		\hline
-		Accuracy & 0.532 \\
-		F1 score & 0.87
-	\end{tabular}
-	\caption{Meaningful caption for this table}
-	\label{tab:result}
-\end{table}
+% \begin{figure}
+% 	\centering
+% 	\includegraphics[width=0.5\linewidth]{uni-logo}
+% 	\caption{Meaningful caption for this image}
+% 	\label{fig:uniLogo}
+% \end{figure}
 
-Table~\ref{tab:result} shows a simple table\footnote{Check \url{https://en.wikibooks.org/wiki/LaTeX/Tables} on syntax}
+% Example figure reference: Look at Figure~\ref{fig:uniLogo} to see an image. It can be \texttt{jpg}, \texttt{png}, or best: \texttt{pdf} (if vector graphic).
+
+% \section{Example table}
+
+% \begin{table}
+% 	\centering
+% 	\begin{tabular}{lr}
+% 		First column & Number column \\
+% 		\hline
+% 		Accuracy & 0.532 \\
+% 		F1 score & 0.87
+% 	\end{tabular}
+% 	\caption{Meaningful caption for this table}
+% 	\label{tab:result}
+% \end{table}
+
+% Table~\ref{tab:result} shows a simple table\footnote{Check \url{https://en.wikibooks.org/wiki/LaTeX/Tables} on syntax}
