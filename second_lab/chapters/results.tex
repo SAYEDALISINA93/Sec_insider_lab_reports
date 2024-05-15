@@ -63,5 +63,40 @@ The files are structured as JSON objects; each object is a repository, and commi
 
 \subsection{Model Training}
 
-Present the results of training the model on the augmented dataset, including model performance metrics, such as accuracy, precision, recall, F1-score, and any insights derived from the trained model's predictions.
+We have trained the model \-\-\-> add detail in here
+
+The final results are: and here
+
+%  MARK: TODO: ADD MORE DETAIL IN HERE:
+
+\begin{table}[htbp]
+    \centering
+    \caption{Performance Metrics}
+    \label{tab:performance}
+    \begin{tabular}{lcccc}
+        \toprule
+        Model & Accuracy & Precision & Recall & F1 Score \\
+        \midrule
+        \textbf{XSS} \\
+        Train Set & 0.912 & 0.956 & 0.500 & 0.477 \\
+        Test Set & 0.913 & 0.957 & 0.500 & 0.477 \\
+        Final Test Set & 0.911 & 0.956 & 0.500 & 0.477 \\
+        \midrule
+        \textbf{Path Disclosure} \\
+        Train Set & 0.884 & 0.942 & 0.500 & 0.469 \\
+        Test Set & 0.883 & 0.941 & 0.500 & 0.469 \\
+        Final Test Set & 0.883 & 0.941 & 0.500 & 0.469 \\
+        \midrule
+        \textbf{Remote Code Execution} \\
+        Train Set & 0.910 & 0.955 & 0.500 & 0.477 \\
+        Test Set & 0.913 & 0.956 & 0.500 & 0.477 \\
+        Final Test Set & 0.909 & 0.955 & 0.500 & 0.476 \\
+        \midrule
+        \textbf{Command Injection} \\
+        Train Set & 0.896 & 0.936 & 0.478 & 0.491 \\
+        Test Set & 0.901 & 0.943 & 0.481 & 0.498 \\
+        Final Test Set & 0.893 & 0.935 & 0.479 & 0.493 \\
+        \bottomrule
+    \end{tabular}
+\end{table}
 

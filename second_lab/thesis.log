@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.16.0 (TeX Live 2023)  (format=lualatex 2023.11.7)  15 MAY 2024 14:39
+This is LuaHBTeX, Version 1.16.0 (TeX Live 2023)  (format=lualatex 2023.11.7)  15 MAY 2024 16:53
  restricted system commands enabled.
  file:line:error style messages enabled.
 **/Users/alisina/Desktop/PassauUniversity/SS24/security_insiderlab2/reports/second_lab/thesis.tex
@@ -349,11 +349,11 @@ braces):
 >  {german/DefineCommandsCmd}  =>  {xpg_define_language_commands:e}.
 Module polyglossia Info: Language data for german
 (polyglossia)            hyphenation	
+(polyglossia)            lefthyphenmin	2
 (polyglossia)            loader	loadhyph-de-1901.tex
 (polyglossia)            patterns	hyph-de-1901.pat.txt
-(polyglossia)            synonyms	
 (polyglossia)            righthyphenmin	2
-(polyglossia)            lefthyphenmin	2 on input line 12
+(polyglossia)            synonyms	 on input line 12
 Module polyglossia Info: Language german was not yet loaded; created with id 2 on input line 12
 Package polyglossia Info: Option: German, spelling=new.
 Package polyglossia Info: Option: German, script=latin.
@@ -853,11 +853,11 @@ LaTeX Info: Redefining \sffamily on input line 4.
 LaTeX Info: Redefining \ttfamily on input line 4.
 Module polyglossia Info: Language data for ngerman
 (polyglossia)            hyphenation	
+(polyglossia)            lefthyphenmin	2
 (polyglossia)            loader	loadhyph-de-1996.tex
 (polyglossia)            patterns	hyph-de-1996.pat.txt
-(polyglossia)            synonyms	
 (polyglossia)            righthyphenmin	2
-(polyglossia)            lefthyphenmin	2 on input line 4
+(polyglossia)            synonyms	 on input line 4
 Module polyglossia Info: Language ngerman was not yet loaded; created with id 4 on input line 4
 Package polyglossia Info: Option: German, variant=german.
 Package polyglossia Info: Option: German, spelling=new.
@@ -1336,89 +1336,114 @@ chapter 2.
 
 
 ]
-<images//Screenshot 2024-05-12 at 10.42.04.png, id=90, 708.6475pt x 150.5625pt>
+<images//Screenshot 2024-05-12 at 10.42.04.png, id=98, 708.6475pt x 150.5625pt>
 File: images//Screenshot 2024-05-12 at 10.42.04.png Graphic file (type png)
 <use images//Screenshot 2024-05-12 at 10.42.04.png>
 Package luatex.def Info: images//Screenshot 2024-05-12 at 10.42.04.png  used on input line 23.
 (luatex.def)             Requested size: 224.06548pt x 47.60432pt.
  [3<./images//Screenshot 2024-05-12 at 10.42.04.png>]
-<images//getDiffe_os.png, id=99, 1286.8075pt x 174.6525pt>
+<images//getDiffe_os.png, id=107, 1286.8075pt x 174.6525pt>
 File: images//getDiffe_os.png Graphic file (type png)
 <use images//getDiffe_os.png>
 Package luatex.def Info: images//getDiffe_os.png  used on input line 52.
 (luatex.def)             Requested size: 448.13095pt x 60.82281pt.
-<images//getDiffs_typo.png, id=100, 1286.8075pt x 174.6525pt>
+<images//getDiffs_typo.png, id=108, 1286.8075pt x 174.6525pt>
 File: images//getDiffs_typo.png Graphic file (type png)
 <use images//getDiffs_typo.png>
 Package luatex.def Info: images//getDiffs_typo.png  used on input line 59.
 (luatex.def)             Requested size: 448.13095pt x 60.82281pt.
  [4<./images//getDiffe_os.png><./images//getDiffs_typo.png>]
-<images//sk-classweight.png, id=109, 1002.74625pt x 148.555pt>
+Overfull \hbox (0.78508pt too wide) in paragraph at lines 89--93
+[]\TU/lmr/bx/n/12 yhat_classes = model.pre-dict_classes(X_train, ver-bose=0) \TU/lmr/m/n/12 is-sue be-cause
+ []
+
+[5]
+<images//sk-classweight.png, id=129, 1002.74625pt x 148.555pt>
 File: images//sk-classweight.png Graphic file (type png)
 <use images//sk-classweight.png>
-Package luatex.def Info: images//sk-classweight.png  used on input line 92.
+Package luatex.def Info: images//sk-classweight.png  used on input line 103.
 (luatex.def)             Requested size: 448.13095pt x 66.39124pt.
-) [5] [6<./images//sk-classweight.png>]
+<images//yhat_changes.png, id=130, 506.89375pt x 112.42pt>
+File: images//yhat_changes.png Graphic file (type png)
+<use images//yhat_changes.png>
+Package luatex.def Info: images//yhat_changes.png  used on input line 110.
+(luatex.def)             Requested size: 448.13095pt x 99.38962pt.
+<images//makemodel1.png, id=131, 1656.1875pt x 919.435pt>
+File: images//makemodel1.png Graphic file (type png)
+<use images//makemodel1.png>
+Package luatex.def Info: images//makemodel1.png  used on input line 117.
+(luatex.def)             Requested size: 448.13095pt x 248.78389pt.
+<images//makemodel2.png, id=132, 1656.1875pt x 919.435pt>
+File: images//makemodel2.png Graphic file (type png)
+<use images//makemodel2.png>
+Package luatex.def Info: images//makemodel2.png  used on input line 124.
+(luatex.def)             Requested size: 448.13095pt x 248.78389pt.
+<images//makemodel3.png, id=133, 1656.1875pt x 919.435pt>
+File: images//makemodel3.png Graphic file (type png)
+<use images//makemodel3.png>
+Package luatex.def Info: images//makemodel3.png  used on input line 130.
+(luatex.def)             Requested size: 448.13095pt x 248.78389pt.
+) [6<./images//sk-classweight.png><./images//yhat_changes.png>] [7<./images//makemodel1.png><./images//makemodel2.png>] [8<./images//makemodel3.png>]
 \openout2 = chapters/results.aux
  (./chapters/results.tex
 chapter 3.
-<images//all_commits.png, id=125, 953.5625pt x 562.1pt>
+<images//all_commits.png, id=157, 953.5625pt x 562.1pt>
 File: images//all_commits.png Graphic file (type png)
 <use images//all_commits.png>
 Package luatex.def Info: images//all_commits.png  used on input line 9.
 (luatex.def)             Requested size: 448.13095pt x 264.1613pt.
-<images//showchase.png, id=128, 1300.86pt x 841.1425pt>
+<images//showchase.png, id=160, 1300.86pt x 841.1425pt>
 File: images//showchase.png Graphic file (type png)
 <use images//showchase.png>
 Package luatex.def Info: images//showchase.png  used on input line 21.
 (luatex.def)             Requested size: 448.13095pt x 289.75809pt.
-<images//noshowcase.png, id=129, 1300.86pt x 841.1425pt>
+<images//noshowcase.png, id=161, 1300.86pt x 841.1425pt>
 File: images//noshowcase.png Graphic file (type png)
 <use images//noshowcase.png>
 Package luatex.def Info: images//noshowcase.png  used on input line 28.
 (luatex.def)             Requested size: 448.13095pt x 289.75809pt.
-<images//python.png, id=132, 1300.86pt x 482.80376pt>
+<images//python.png, id=164, 1300.86pt x 482.80376pt>
 File: images//python.png Graphic file (type png)
 <use images//python.png>
 Package luatex.def Info: images//python.png  used on input line 40.
 (luatex.def)             Requested size: 448.13095pt x 166.317pt.
-<images//no-python.png, id=133, 1300.86pt x 482.80376pt>
+<images//no-python.png, id=165, 1300.86pt x 482.80376pt>
 File: images//no-python.png Graphic file (type png)
 <use images//no-python.png>
 Package luatex.def Info: images//no-python.png  used on input line 47.
 (luatex.def)             Requested size: 448.13095pt x 166.317pt.
-[7
+[9
 
 
 
 
 
-] [8<./images//all_commits.png><./images//showchase.png>] [9<./images//noshowcase.png><./images//python.png>]
-<images//PyDiffcommits.png, id=154, 1973.3725pt x 482.80376pt>
+] [10<./images//all_commits.png><./images//showchase.png>] [11<./images//noshowcase.png><./images//python.png>]
+<images//PyDiffcommits.png, id=184, 1973.3725pt x 482.80376pt>
 File: images//PyDiffcommits.png Graphic file (type png)
 <use images//PyDiffcommits.png>
 Package luatex.def Info: images//PyDiffcommits.png  used on input line 59.
 (luatex.def)             Requested size: 448.13095pt x 109.63544pt.
-) [10<./images//no-python.png><./images//PyDiffcommits.png>]
+) [12<./images//no-python.png><./images//PyDiffcommits.png>] [13]
 \openout2 = chapters/discussion.aux
  (./chapters/discussion.tex
 chapter 4.
-<images//Screenshot 2024-05-12 at 13.10.36.png, id=162, 349.305pt x 16.06pt>
+<images//Screenshot 2024-05-12 at 13.10.36.png, id=197, 349.305pt x 16.06pt>
 File: images//Screenshot 2024-05-12 at 13.10.36.png Graphic file (type png)
 <use images//Screenshot 2024-05-12 at 13.10.36.png>
 Package luatex.def Info: images//Screenshot 2024-05-12 at 13.10.36.png  used on input line 16.
 (luatex.def)             Requested size: 224.06548pt x 10.30188pt.
-<images//Screenshot 2024-05-12 at 13.14.57.png, id=163, 367.3725pt x 26.0975pt>
+<images//Screenshot 2024-05-12 at 13.14.57.png, id=198, 367.3725pt x 26.0975pt>
 File: images//Screenshot 2024-05-12 at 13.14.57.png Graphic file (type png)
 <use images//Screenshot 2024-05-12 at 13.14.57.png>
 Package luatex.def Info: images//Screenshot 2024-05-12 at 13.14.57.png  used on input line 18.
 (luatex.def)             Requested size: 224.06548pt x 15.91745pt.
-<images//Screenshot 2024-05-12 at 13.16.00.png, id=164, 270.00874pt x 16.06pt>
+<images//Screenshot 2024-05-12 at 13.16.00.png, id=199, 270.00874pt x 16.06pt>
 File: images//Screenshot 2024-05-12 at 13.16.00.png Graphic file (type png)
 <use images//Screenshot 2024-05-12 at 13.16.00.png>
 Package luatex.def Info: images//Screenshot 2024-05-12 at 13.16.00.png  used on input line 18.
 (luatex.def)             Requested size: 224.06548pt x 13.32758pt.
-<images//Screenshot 2024-05-12 at 13.16.43.png, id=165, 262.9825pt x 16.06pt>
+<images//Screenshot 2024-05-12 at 13.16.43.png, id=200, 262.9825pt x 16.06pt>
 File: images//Screenshot 2024-05-12 at 13.16.43.png Graphic file (type png)
 <use images//Screenshot 2024-05-12 at 13.16.43.png>
 Package luatex.def Info: images//Screenshot 2024-05-12 at 13.16.43.png  used on input line 18.
@@ -1428,7 +1453,7 @@ Overfull \hbox (61.69203pt too wide) in paragraph at lines 8--19
 [] \TU/lmr/m/n/12 and fi-nally []. 
  []
 
-) [11
+) [14
 
 
 
@@ -1644,19 +1669,19 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 )
 
 Here is how much of LuaTeX's memory you used:
- 28177 strings out of 478285
+ 28247 strings out of 478285
  100000,1977958 words of node,token memory allocated
  549 words of node memory still in use:
    3 hlist, 1 vlist, 1 rule, 2 glue, 3 kern, 1 glyph, 8 attribute, 71 glue_spec, 8 attribute_list, 5 write nodes
-   avail lists: 2:784,3:296,4:13,5:226,6:102,7:3462,8:1,9:545,10:11,11:238,12:1
- 47270 multiletter control sequences out of 65536+600000
+   avail lists: 2:809,3:296,4:13,5:241,6:102,7:3664,8:1,9:545,10:11,11:237,12:1
+ 47307 multiletter control sequences out of 65536+600000
  49 fonts using 3880631 bytes
  108i,19n,100p,10685b,2457s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmromanslant12-regular.otf></usr/local/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmroman12-italic.otf></usr/local/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmsans10-bold.otf></usr/local/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmroman12-regular.otf></usr/local/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmsans17-regular.otf></usr/local/texlive/2023/texmf-dist/fonts/opentype/public/lm/lmroman12-bold.otf>
-Output written on thesis.pdf (14 pages, 939277 bytes).
+Output written on thesis.pdf (17 pages, 1722436 bytes).
 
-PDF statistics: 266 PDF objects out of 1000 (max. 8388607)
- 200 compressed objects within 2 object streams
- 47 named destinations out of 1000 (max. 131072)
+PDF statistics: 302 PDF objects out of 1000 (max. 8388607)
+ 224 compressed objects within 3 object streams
+ 56 named destinations out of 1000 (max. 131072)
  129 words of extra memory for PDF output out of 10000 (max. 100000000)
 

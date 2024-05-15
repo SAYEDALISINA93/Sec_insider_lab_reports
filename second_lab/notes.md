@@ -84,6 +84,33 @@ Recall: 0.5
 F1 score: 0.476213
 
 ### command_injection ###
+Now predicting on train set (0.2 dropout)
+2102/2102 ━━━━━━━━━━━━━━━━━━━━ 5s 2ms/step   
+Accuracy: 0.9104899263995242
+Precision: 0.9552449631997622
+Recall: 0.5
+F1 score: 0.476574
+
+
+Now predicting on test set (0.2 dropout)
+451/451 ━━━━━━━━━━━━━━━━━━━━ 1s 2ms/step  
+Accuracy: 0.9127055721323989
+Precision: 0.9563527860661994
+Recall: 0.5
+F1 score: 0.477180
+
+
+Now predicting on finaltest set (0.2 dropout)
+451/451 ━━━━━━━━━━━━━━━━━━━━ 1s 2ms/step  
+Accuracy: 0.90917291146267
+Precision: 0.954586455731335
+Recall: 0.5
+F1 score: 0.476213
+
+
+
+
+
 <!-- Issue Notes -->
 
 scrappingGithub.py

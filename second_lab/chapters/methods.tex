@@ -12,8 +12,8 @@ As we worked on \textbf{scrapingGithub.py} file, we have faced the following iss
     \item Missing \textbf{requests} library solved with \textit{ pip install requests }
     \item Missing \textbf{requests\_oauthlib} library, solved with  \textit{pip install requests\_oauthlib}
     \item Missing \textbf{all\_commits} file which we created manually.
-    \item Requests needed exception handling in case of losing the network.
     \item Missing Github Access Token, we generated through Github and save to \textbf{access} file inside the project folder. 
+    \item Requests needed exception handling in case of losing the network.
 \end{itemize}
 
 After solving the above issue, they successfully ran the \textbf{scrapingGithub.py}, and its results were saved in \textbf{allcommits.json} file.
@@ -76,20 +76,58 @@ This supplementary dataset, provided by the main repository, was essential for e
 
 The final step involved training our model based on the augmented dataset acquired in the previous step. This step handled with the help \textbf{makemodel.py}.
 The Python script is a machine learning pipeline for training and evaluating an LSTM (Long Short-Term Memory) model for identifying vulnerabilities. 
-We have trained the model over four types of vulnerabilities, XSS (Cross-Site Scripting), Path Disclosure, Remote Code Execution. The model specification is 10 for minimum count, 200 for iterations, 300 for vector size.
+We have trained the model over four types of vulnerabilities, XSS (Cross-Site Scripting), Path Disclosure, Remote Code Execution. The model specification 
+is 10 for minimum count, 200 for iterations, 300 for vector size.
 
 While working with this script we have faced the following issues due to library deprecations and changes in the Python version:
 
 \begin{enumerate}
+
     \item \textbf{Sklearn.util class\_weight} issue which the input parameters changed in the latest verions. The differences shown in the figure \ref{fig:sklearn_class_wight}.
     \item \textbf{AttributeError: The vocab attribute was removed from KeyedVector in Gensim 4.0.0.}, the solution is changing vocab to \textbf{key\_to\_index}.
     \item \textbf{vector = w2v\_model[t] 'Word2Vec' object is not subscriptable} resolved by changing \textit{w2v\_model} to \textit{m2v\_model.wv}.
-    \item \textbf{}
+    \item \textbf{yhat\_classes = model.predict\_classes(X\_train, verbose=0)} issue because of the ... add in here . 
+    Therefore we have changed to the \textbf{predict=model.predict(X\_train) yhat\_classes=numpy.argmax(predict,axis=1)}. 
+    The final result for this changes shown in figure \ref{fig:yhat_changes}.
+    % MARK: talk with atiq about it
+    \item \textbf{numpy.core.\_exceptions.\_arraymemoryerror: unable to allocate 2.42 gib for an array with shape (8277, 131, 300) and data type float64} memory issue, we solved this issue with increasing virtual memory to 150 GB and GPU with the help of Tensorflow GPU library.
+
 \end{enumerate}
+
+Figures \ref{fig:makemodel1}, \ref{fig:makemodel2} and \ref{fig:makemodel3} log of each step for execution of this step. 
+
+MARK TODO: Talk Abount the code enhancemnt you have and check if I miss something with ATIQullah
 
 \begin{figure}
     \centering
     \includegraphics[width=1\linewidth]{sk-classweight.png}
     \caption{Sklearn Utils Class Weight}
     \label{fig:sklearn_class_wight}
+\end{figure}
+
+\begin{figure}
+    \centering
+    \includegraphics[width=1\linewidth]{yhat_changes.png}
+    \caption{Yhat Changes}
+    \label{fig:yhat_changes}
+\end{figure}
+
+\begin{figure}
+    \centering
+    \includegraphics[width=1\linewidth]{makemodel1.png}
+    \caption{Loading Data, Filtering Array \& Perpairing Data}
+    \label{fig:makemodel1}
+\end{figure}
+
+\begin{figure}
+    \centering
+    \includegraphics[width=1\linewidth]{makemodel2.png}
+    \caption{The Epoch Steps Calculation}
+    \label{fig:makemodel2}
+\end{figure}
+\begin{figure}
+    \centering
+    \includegraphics[width=1\linewidth]{makemodel3.png}
+    \caption{Model Generation and Saving it}
+    \label{fig:makemodel3}
 \end{figure}
