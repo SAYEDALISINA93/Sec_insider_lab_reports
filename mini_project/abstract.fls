@@ -1,0 +1,8 @@
+PWD /Users/alisina/Desktop/PassauUniversity/SS24/security_insiderlab2/reports/project_abstract
+INPUT /usr/local/texlive/2023/texmf.cnf
+INPUT /usr/local/texlive/2023/texmf-dist/web2c/texmf.cnf
+INPUT /usr/local/texlive/2023/texmf-var/web2c/pdftex/pdflatex.fmt
+INPUT /Users/alisina/Desktop/PassauUniversity/SS24/security_insiderlab2/reports/project_abstract/abstract.tex
+OUTPUT abstract.log
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm

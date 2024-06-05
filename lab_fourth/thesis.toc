@@ -1,0 +1,18 @@
+\selectlanguage *{german}
+\selectlanguage *[variant=german,spelling=new,script=latin,babelshorthands=false]{german}
+\selectlanguage *{english}
+\selectlanguage *{english}
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
+\contentsline {chapter}{\numberline {2}Methods}{3}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Setup}{3}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Client/Server Side Scripting}{3}{section.2.2}%
+\contentsline {section}{\numberline {2.3}SQL Injection}{6}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Observation}{7}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Injection on login}{7}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3}Injection on change password}{8}{subsection.2.3.3}%
+\contentsline {subsection}{\numberline {2.3.4}User Creation}{9}{subsection.2.3.4}%
+\contentsline {subsection}{\numberline {2.3.5}Request Manipulation}{11}{subsection.2.3.5}%
+\contentsline {subsubsection}{\nonumberline Preventing CSRF}{14}{subsubsection*.5}%
+\contentsline {subsection}{\numberline {2.3.6}Cross Site Scripting -XSS}{15}{subsection.2.3.6}%
+\contentsline {chapter}{\nonumberline Bibliography}{20}{chapter*.6}%
+\providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
