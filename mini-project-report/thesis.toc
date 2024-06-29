@@ -1,0 +1,28 @@
+\selectlanguage *{german}
+\selectlanguage *[variant=german,spelling=new,script=latin,babelshorthands=false]{german}
+\selectlanguage *{english}
+\selectlanguage *{english}
+\contentsline {chapter}{\numberline {1}Introduction}{1}{}%
+\contentsline {chapter}{\numberline {2}Methods}{4}{}%
+\contentsline {section}{\numberline {2.1}Technologies}{4}{}%
+\contentsline {section}{\numberline {2.2}Implementation}{5}{}%
+\contentsline {subsection}{\numberline {2.2.1}User Options}{5}{}%
+\contentsline {subsection}{\numberline {2.2.2}Core Functionalities}{6}{}%
+\contentsline {subsection}{\numberline {2.2.3}Frontend and Backend Integration}{7}{}%
+\contentsline {subsection}{\numberline {2.2.4}AI Integration}{7}{}%
+\contentsline {subsubsection}{\nonumberline Integrated ChatGPT API}{7}{}%
+\contentsline {subsubsection}{\nonumberline LSTM Model}{8}{}%
+\contentsline {section}{\numberline {2.3}Data Storage}{8}{}%
+\contentsline {section}{\numberline {2.4}Challenges}{10}{}%
+\contentsline {subsection}{\numberline {2.4.1}Integration of AI Models}{11}{}%
+\contentsline {subsection}{\numberline {2.4.2}Prompt Engineering}{12}{}%
+\contentsline {chapter}{\numberline {3}Results}{15}{}%
+\contentsline {chapter}{\numberline {4}Discussion}{16}{}%
+\contentsline {chapter}{Appendix \numberline {A}Code}{17}{}%
+\contentsline {chapter}{Appendix \numberline {B}Math}{18}{}%
+\contentsline {chapter}{Appendix \numberline {C}Dataset}{19}{}%
+\selectlanguage *{german}
+\contentsline {chapter}{\nonumberline Eidesstattliche Erklärung}{20}{}%
+\selectlanguage *[variant=german,spelling=new,script=latin,babelshorthands=false]{german}
+\selectlanguage *{english}
+\providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

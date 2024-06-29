@@ -1,35 +1,39 @@
 \chapter{Introduction}\label{chap:introduction}
 
-\section{Example citation \& symbol reference}\label{sec:citation}
-For symbols look at \cite{latex_symbols_2017}.
+The SafeScript project addresses the critical need for enhanced security in software development by developing an advanced tool that identifies security vulnerabilities within software projects. 
+This project aims to provide users with comprehensive capabilities to log in, create, and manage projects, and scan code repositories or Python source files for various vulnerabilities. 
+The system employs sophisticated machine learning models to detect potential security issues and generates detailed reports. 
+Additionally, users can rescan their code after making necessary fixes to ensure that security improvements are effectively implemented.
 
+The project encompasses several functional requirements. 
+First, it includes a user authentication feature where users must log in with a username and password to access the system, ensuring secure access. 
+Second, it allows for project creation, enabling users to create new projects by providing a name and selecting a code repository or uploading a Python source code file. 
+Third, repository management lets users specify the source of the code, either via a repository link or direct file upload. 
+Fourth, the code retrieval function automates the process of fetching the code from the specified repository or processing the uploaded file. 
+Fifth, data conversion converts the retrieved code into word2vec (w2v) format for subsequent vulnerability analysis. 
+Sixth, vulnerability detection utilizes pre-trained machine learning models (LSTM, ChatGPT API) to identify vulnerabilities in the code. 
+Seventh, report generation produces a comprehensive report detailing detected vulnerabilities, their severity, and recommendations for remediation. 
+Eighth, the rescan capability allows users to rescan their code post-fix to confirm that vulnerabilities have been addressed. 
+Lastly, the system supports the detection of specific types of vulnerabilities, including XSS (Cross-Site Scripting), Path Disclosure, Remote Code Execution, and Command Injection.
 
-\section{Example reference}
-Example reference: Look at chapter~\ref{chap:introduction}, for sections, look at section~\ref{sec:citation}.
+The technical architecture of the SafeScript system comprises several key components. 
+The user interface (UI) includes a login page, a dashboard for project management, and options for report viewing and rescanning. 
+The backend includes services for authentication, project management, code retrieval, vulnerability detection, and report generation. 
+The database stores user credentials, project details, and scanning results and reports. 
+The system also incorporates pre-trained machine learning models (LSTM and ChatGPT API) for vulnerability detection.
 
-\section{Example image}
+The workflow of the SafeScript system involves several steps. Initially, the user logs in using credentials. 
+The user then creates a new project and selects the source of the code. 
+The system fetches the code from the repository or processes the uploaded file. 
+The code is then converted to w2v format, and the selected machine learning model analyzes the code for vulnerabilities. 
+Subsequently, the system generates and displays a report. Finally, the user can rescan the code after making fixes to ensure that vulnerabilities have been addressed.
+Figure \ref{fig:workflow} shows the complete workflow of the applications.
 
-\begin{figure}
-	\centering
-	\includegraphics[width=0.5\linewidth]{uni-logo}
-	\caption{Meaningful caption for this image}
-	\label{fig:uniLogo}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\linewidth]{images/workflow.png}
+    \caption{SafeScript workflow diagram}
+    \label{fig:workflow}
 \end{figure}
 
-Example figure reference: Look at Figure~\ref{fig:uniLogo} to see an image. It can be \texttt{jpg}, \texttt{png}, or best: \texttt{pdf} (if vector graphic).
-
-\section{Example table}
-
-\begin{table}
-	\centering
-	\begin{tabular}{lr}
-		First column & Number column \\
-		\hline
-		Accuracy & 0.532 \\
-		F1 score & 0.87
-	\end{tabular}
-	\caption{Meaningful caption for this table}
-	\label{tab:result}
-\end{table}
-
-Table~\ref{tab:result} shows a simple table\footnote{Check \url{https://en.wikibooks.org/wiki/LaTeX/Tables} on syntax}
+This structured approach ensures that the system not only identifies security vulnerabilities effectively but also facilitates continuous improvement in code security through iterative scans and fixes.
