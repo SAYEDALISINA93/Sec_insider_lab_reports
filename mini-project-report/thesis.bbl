@@ -16,5 +16,353 @@
   {}
 \endgroup
 
+
+\refsection{0}
+  \datalist[entry]{nyt/global//global/global}
+    \entry{css}{software}{}
+      \name{author}{1}{}{%
+        {{hash=47680d67712e1edb0433fdd99edd667f}{%
+           family={(W3C)},
+           familyi={(\bibinitperiod},
+           given={World\bibnamedelimb Wide\bibnamedelimb Web\bibnamedelima Consortium},
+           giveni={W\bibinitperiod\bibinitdelim W\bibinitperiod\bibinitdelim W\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \strng{namehash}{47680d67712e1edb0433fdd99edd667f}
+      \strng{fullhash}{47680d67712e1edb0433fdd99edd667f}
+      \strng{bibnamehash}{47680d67712e1edb0433fdd99edd667f}
+      \strng{authorbibnamehash}{47680d67712e1edb0433fdd99edd667f}
+      \strng{authornamehash}{47680d67712e1edb0433fdd99edd667f}
+      \strng{authorfullhash}{47680d67712e1edb0433fdd99edd667f}
+      \field{extraname}{1}
+      \field{labelalpha}{W3C24}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extraalpha}{1}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{CSS: Cascading Style Sheets}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://www.w3.org/Style/CSS/
+      \endverb
+      \verb{url}
+      \verb https://www.w3.org/Style/CSS/
+      \endverb
+    \endentry
+    \entry{html}{software}{}
+      \name{author}{1}{}{%
+        {{hash=47680d67712e1edb0433fdd99edd667f}{%
+           family={(W3C)},
+           familyi={(\bibinitperiod},
+           given={World\bibnamedelimb Wide\bibnamedelimb Web\bibnamedelima Consortium},
+           giveni={W\bibinitperiod\bibinitdelim W\bibinitperiod\bibinitdelim W\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \strng{namehash}{47680d67712e1edb0433fdd99edd667f}
+      \strng{fullhash}{47680d67712e1edb0433fdd99edd667f}
+      \strng{bibnamehash}{47680d67712e1edb0433fdd99edd667f}
+      \strng{authorbibnamehash}{47680d67712e1edb0433fdd99edd667f}
+      \strng{authornamehash}{47680d67712e1edb0433fdd99edd667f}
+      \strng{authorfullhash}{47680d67712e1edb0433fdd99edd667f}
+      \field{extraname}{2}
+      \field{labelalpha}{W3C24}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extraalpha}{2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{HTML: HyperText Markup Language}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://html.spec.whatwg.org/
+      \endverb
+      \verb{url}
+      \verb https://html.spec.whatwg.org/
+      \endverb
+    \endentry
+    \entry{bootstrap}{software}{}
+      \name{author}{1}{}{%
+        {{hash=a94fb75fa3b25e35a1c15abce0308b9a}{%
+           family={Authors},
+           familyi={A\bibinitperiod},
+           given={Bootstrap},
+           giveni={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{a94fb75fa3b25e35a1c15abce0308b9a}
+      \strng{fullhash}{a94fb75fa3b25e35a1c15abce0308b9a}
+      \strng{bibnamehash}{a94fb75fa3b25e35a1c15abce0308b9a}
+      \strng{authorbibnamehash}{a94fb75fa3b25e35a1c15abce0308b9a}
+      \strng{authornamehash}{a94fb75fa3b25e35a1c15abce0308b9a}
+      \strng{authorfullhash}{a94fb75fa3b25e35a1c15abce0308b9a}
+      \field{labelalpha}{Aut24}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Bootstrap: The most popular HTML, CSS, and JS library in the world}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://getbootstrap.com/
+      \endverb
+      \verb{url}
+      \verb https://getbootstrap.com/
+      \endverb
+    \endentry
+    \entry{sqlite}{software}{}
+      \name{author}{1}{}{%
+        {{hash=098321d62b1c091ef7ba6f19ba0893ea}{%
+           family={Consortium},
+           familyi={C\bibinitperiod},
+           given={SQLite},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{098321d62b1c091ef7ba6f19ba0893ea}
+      \strng{fullhash}{098321d62b1c091ef7ba6f19ba0893ea}
+      \strng{bibnamehash}{098321d62b1c091ef7ba6f19ba0893ea}
+      \strng{authorbibnamehash}{098321d62b1c091ef7ba6f19ba0893ea}
+      \strng{authornamehash}{098321d62b1c091ef7ba6f19ba0893ea}
+      \strng{authorfullhash}{098321d62b1c091ef7ba6f19ba0893ea}
+      \field{labelalpha}{Con24}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{SQLite: The Most Used Database Engine in the World}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://www.sqlite.org/
+      \endverb
+      \verb{url}
+      \verb https://www.sqlite.org/
+      \endverb
+    \endentry
+    \entry{gitpython}{software}{}
+      \name{author}{1}{}{%
+        {{hash=785d715742ec33d987945ea9dfda068d}{%
+           family={Developers},
+           familyi={D\bibinitperiod},
+           given={GitPython},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{785d715742ec33d987945ea9dfda068d}
+      \strng{fullhash}{785d715742ec33d987945ea9dfda068d}
+      \strng{bibnamehash}{785d715742ec33d987945ea9dfda068d}
+      \strng{authorbibnamehash}{785d715742ec33d987945ea9dfda068d}
+      \strng{authornamehash}{785d715742ec33d987945ea9dfda068d}
+      \strng{authorfullhash}{785d715742ec33d987945ea9dfda068d}
+      \field{labelalpha}{Dev24}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{GitPython: A python library used to interact with Git repositories}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://gitpython.readthedocs.io/
+      \endverb
+      \verb{url}
+      \verb https://gitpython.readthedocs.io/
+      \endverb
+    \endentry
+    \entry{javascript}{software}{}
+      \name{author}{1}{}{%
+        {{hash=c669ae39e4262fb31a4df5b29bc678ae}{%
+           family={Eich},
+           familyi={E\bibinitperiod},
+           given={Brendan},
+           giveni={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{c669ae39e4262fb31a4df5b29bc678ae}
+      \strng{fullhash}{c669ae39e4262fb31a4df5b29bc678ae}
+      \strng{bibnamehash}{c669ae39e4262fb31a4df5b29bc678ae}
+      \strng{authorbibnamehash}{c669ae39e4262fb31a4df5b29bc678ae}
+      \strng{authornamehash}{c669ae39e4262fb31a4df5b29bc678ae}
+      \strng{authorfullhash}{c669ae39e4262fb31a4df5b29bc678ae}
+      \field{labelalpha}{Eic24}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{JavaScript: High-level, dynamic, untyped, and interpreted programming language}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://developer.mozilla.org/en-US/docs/Web/JavaScript
+      \endverb
+      \verb{url}
+      \verb https://developer.mozilla.org/en-US/docs/Web/JavaScript
+      \endverb
+    \endentry
+    \entry{django}{software}{}
+      \name{author}{1}{}{%
+        {{hash=4b391b2392458f3f1f92f0b33887d9f4}{%
+           family={Foundation},
+           familyi={F\bibinitperiod},
+           given={Django\bibnamedelima Software},
+           giveni={D\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \strng{namehash}{4b391b2392458f3f1f92f0b33887d9f4}
+      \strng{fullhash}{4b391b2392458f3f1f92f0b33887d9f4}
+      \strng{bibnamehash}{4b391b2392458f3f1f92f0b33887d9f4}
+      \strng{authorbibnamehash}{4b391b2392458f3f1f92f0b33887d9f4}
+      \strng{authornamehash}{4b391b2392458f3f1f92f0b33887d9f4}
+      \strng{authorfullhash}{4b391b2392458f3f1f92f0b33887d9f4}
+      \field{extraname}{1}
+      \field{labelalpha}{Fou24}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extraalpha}{1}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Django: The Web framework for perfectionists with deadlines}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://www.djangoproject.com/
+      \endverb
+      \verb{url}
+      \verb https://www.djangoproject.com/
+      \endverb
+    \endentry
+    \entry{jquery}{software}{}
+      \name{author}{1}{}{%
+        {{hash=27527d9f285d3d71875f29e8117ee2a7}{%
+           family={Foundation},
+           familyi={F\bibinitperiod},
+           prefix={jQuery},
+           prefixi={j\bibinitperiod}}}%
+      }
+      \strng{namehash}{27527d9f285d3d71875f29e8117ee2a7}
+      \strng{fullhash}{27527d9f285d3d71875f29e8117ee2a7}
+      \strng{bibnamehash}{27527d9f285d3d71875f29e8117ee2a7}
+      \strng{authorbibnamehash}{27527d9f285d3d71875f29e8117ee2a7}
+      \strng{authornamehash}{27527d9f285d3d71875f29e8117ee2a7}
+      \strng{authorfullhash}{27527d9f285d3d71875f29e8117ee2a7}
+      \field{labelalpha}{Fou24}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extraalpha}{2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{jQuery: A fast, small, and feature-rich JavaScript library}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://jquery.com/
+      \endverb
+      \verb{url}
+      \verb https://jquery.com/
+      \endverb
+    \endentry
+    \entry{python}{software}{}
+      \name{author}{1}{}{%
+        {{hash=9688a568902e4b07b60557b566bdd820}{%
+           family={Foundation},
+           familyi={F\bibinitperiod},
+           given={Python\bibnamedelima Software},
+           giveni={P\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \strng{namehash}{9688a568902e4b07b60557b566bdd820}
+      \strng{fullhash}{9688a568902e4b07b60557b566bdd820}
+      \strng{bibnamehash}{9688a568902e4b07b60557b566bdd820}
+      \strng{authorbibnamehash}{9688a568902e4b07b60557b566bdd820}
+      \strng{authornamehash}{9688a568902e4b07b60557b566bdd820}
+      \strng{authorfullhash}{9688a568902e4b07b60557b566bdd820}
+      \field{extraname}{2}
+      \field{labelalpha}{Fou24}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extraalpha}{3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Python: A powerful programming language for science and engineering}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://www.python.org/
+      \endverb
+      \verb{url}
+      \verb https://www.python.org/
+      \endverb
+    \endentry
+    \entry{ajax}{software}{}
+      \name{author}{1}{}{%
+        {{hash=d061f60676574ea537a62d4635bccf11}{%
+           family={Garrett},
+           familyi={G\bibinitperiod},
+           given={Jesse\bibnamedelima James},
+           giveni={J\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{d061f60676574ea537a62d4635bccf11}
+      \strng{fullhash}{d061f60676574ea537a62d4635bccf11}
+      \strng{bibnamehash}{d061f60676574ea537a62d4635bccf11}
+      \strng{authorbibnamehash}{d061f60676574ea537a62d4635bccf11}
+      \strng{authornamehash}{d061f60676574ea537a62d4635bccf11}
+      \strng{authorfullhash}{d061f60676574ea537a62d4635bccf11}
+      \field{labelalpha}{Gar24}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Ajax: Asynchronous JavaScript and XML}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://developer.mozilla.org/en-US/docs/Web/Guide/AJAX
+      \endverb
+      \verb{url}
+      \verb https://developer.mozilla.org/en-US/docs/Web/Guide/AJAX
+      \endverb
+    \endentry
+    \entry{chatgpt}{software}{}
+      \name{author}{1}{}{%
+        {{hash=0523b13262b12c215d8009938f5c14f1}{%
+           family={OpenAI},
+           familyi={O\bibinitperiod}}}%
+      }
+      \strng{namehash}{0523b13262b12c215d8009938f5c14f1}
+      \strng{fullhash}{0523b13262b12c215d8009938f5c14f1}
+      \strng{bibnamehash}{0523b13262b12c215d8009938f5c14f1}
+      \strng{authorbibnamehash}{0523b13262b12c215d8009938f5c14f1}
+      \strng{authornamehash}{0523b13262b12c215d8009938f5c14f1}
+      \strng{authorfullhash}{0523b13262b12c215d8009938f5c14f1}
+      \field{labelalpha}{Ope24}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{ChatGPT API}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://www.openai.com/api/
+      \endverb
+      \verb{url}
+      \verb https://www.openai.com/api/
+      \endverb
+    \endentry
+    \entry{vulpy}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=1aa52b3e2e685a60c4964a60f9b15907}{%
+           family={Portantier},
+           familyi={P\bibinitperiod},
+           given={Fabio},
+           giveni={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{1aa52b3e2e685a60c4964a60f9b15907}
+      \strng{fullhash}{1aa52b3e2e685a60c4964a60f9b15907}
+      \strng{bibnamehash}{1aa52b3e2e685a60c4964a60f9b15907}
+      \strng{authorbibnamehash}{1aa52b3e2e685a60c4964a60f9b15907}
+      \strng{authornamehash}{1aa52b3e2e685a60c4964a60f9b15907}
+      \strng{authorfullhash}{1aa52b3e2e685a60c4964a60f9b15907}
+      \field{labelalpha}{Por24}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Vulpy: A Vulnerability Scanner Tool}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://github.com/fportantier/vulpy
+      \endverb
+      \verb{url}
+      \verb https://github.com/fportantier/vulpy
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
 \endinput
 

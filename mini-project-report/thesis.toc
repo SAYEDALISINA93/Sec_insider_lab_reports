@@ -13,16 +13,12 @@
 \contentsline {subsubsection}{\nonumberline Integrated ChatGPT API}{7}{}%
 \contentsline {subsubsection}{\nonumberline LSTM Model}{8}{}%
 \contentsline {section}{\numberline {2.3}Data Storage}{8}{}%
-\contentsline {section}{\numberline {2.4}Challenges}{10}{}%
-\contentsline {subsection}{\numberline {2.4.1}Integration of AI Models}{11}{}%
-\contentsline {subsection}{\numberline {2.4.2}Prompt Engineering}{12}{}%
-\contentsline {chapter}{\numberline {3}Results}{15}{}%
-\contentsline {chapter}{\numberline {4}Discussion}{16}{}%
-\contentsline {chapter}{Appendix \numberline {A}Code}{17}{}%
-\contentsline {chapter}{Appendix \numberline {B}Math}{18}{}%
-\contentsline {chapter}{Appendix \numberline {C}Dataset}{19}{}%
-\selectlanguage *{german}
-\contentsline {chapter}{\nonumberline Eidesstattliche Erklärung}{20}{}%
-\selectlanguage *[variant=german,spelling=new,script=latin,babelshorthands=false]{german}
-\selectlanguage *{english}
+\contentsline {chapter}{\numberline {3}Results}{11}{}%
+\contentsline {subsection}{\numberline {3.0.1}Project Pages}{11}{}%
+\contentsline {subsection}{\numberline {3.0.2}GPT API}{13}{}%
+\contentsline {subsection}{\numberline {3.0.3}LSTM}{15}{}%
+\contentsline {subsubsection}{\nonumberline Reposities}{15}{}%
+\contentsline {subsubsection}{\nonumberline Single file}{16}{}%
+\contentsline {chapter}{\numberline {4}Discussion}{19}{}%
+\contentsline {chapter}{\nonumberline Bibliography}{20}{}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

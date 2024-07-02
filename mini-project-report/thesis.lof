@@ -3,9 +3,21 @@
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {2.1}{\ignorespaces System storage ER diagram}}{10}{}%
 \addvspace {10\p@ }
-\addvspace {10\p@ }
-\addvspace {10\p@ }
-\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces SafeScript main page}}{11}{}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces SafeScript main page}}{12}{}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces SafeScript projects page}}{12}{}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces SafeScript users page}}{13}{}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces SafeScript feedback page}}{13}{}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Testing Skey script over GPT}}{14}{}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Testing Vulpy script over GPT}}{14}{}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Testing XSS vulnerability over LSTM model with Repository option}}{15}{}%
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Testing Path Disclosure vulnerability over LSTM model with Repository option}}{15}{}%
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Testing Command Injection vulnerability over LSTM model with Repository option}}{16}{}%
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Testing Remote Code Execution vulnerability over LSTM model with Repository option}}{16}{}%
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Testing XSS vulnerability over LSTM model}}{17}{}%
+\contentsline {figure}{\numberline {3.13}{\ignorespaces Testing Remote Code Execution vulnerability over LSTM model}}{17}{}%
+\contentsline {figure}{\numberline {3.14}{\ignorespaces Testing Command Injection vulnerability over LSTM model}}{17}{}%
+\contentsline {figure}{\numberline {3.15}{\ignorespaces Testing Path Disclosure vulnerability over LSTM model}}{18}{}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

@@ -11,7 +11,7 @@ Second, it allows for project creation, enabling users to create new projects by
 Third, repository management lets users specify the source of the code, either via a repository link or direct file upload. 
 Fourth, the code retrieval function automates the process of fetching the code from the specified repository or processing the uploaded file. 
 Fifth, data conversion converts the retrieved code into word2vec (w2v) format for subsequent vulnerability analysis. 
-Sixth, vulnerability detection utilizes pre-trained machine learning models (LSTM, ChatGPT API) to identify vulnerabilities in the code. 
+Sixth, vulnerability detection utilizes pre-trained machine learning models (LSTM, ChatGPT API \cite{chatgpt}) to identify vulnerabilities in the code. 
 Seventh, report generation produces a comprehensive report detailing detected vulnerabilities, their severity, and recommendations for remediation. 
 Eighth, the rescan capability allows users to rescan their code post-fix to confirm that vulnerabilities have been addressed. 
 Lastly, the system supports the detection of specific types of vulnerabilities, including XSS (Cross-Site Scripting), Path Disclosure, Remote Code Execution, and Command Injection.
@@ -27,7 +27,7 @@ The user then creates a new project and selects the source of the code.
 The system fetches the code from the repository or processes the uploaded file. 
 The code is then converted to w2v format, and the selected machine learning model analyzes the code for vulnerabilities. 
 Subsequently, the system generates and displays a report. Finally, the user can rescan the code after making fixes to ensure that vulnerabilities have been addressed.
-Figure \ref{fig:workflow} shows the complete workflow of the applications.
+Figure \ref{fig:workflow} shows the complete workflow of the application.
 
 \begin{figure}[H]
     \centering

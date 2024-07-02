@@ -5,16 +5,16 @@ The SafeScript project utilizes a comprehensive stack of technologies to deliver
 The key technologies employed in this project include:
 
 \begin{itemize}
-\item \textbf{Django Framework}: A high-level Python web framework that encourages rapid development and clean, pragmatic design.
-\item \textbf{Python}: The primary programming language used for developing the backend logic and machine learning models.
-\item \textbf{SQLite v3}: A lightweight, disk-based database used for storing user credentials, project details, and scanning results.
-\item \textbf{JavaScript}: Used for adding interactive elements to the web pages and handling client-side logic.
-\item \textbf{HTML}: The standard markup language for creating web pages.
-\item \textbf{CSS}: A style sheet language used for describing the presentation of the web pages.
-\item \textbf{Bootstrap}: A front-end framework used for developing responsive and mobile-first web pages.
-\item \textbf{Ajax}: A set of web development techniques used to create asynchronous web applications.
-\item \textbf{jQuery}: A fast, small, and feature-rich JavaScript library used to simplify HTML DOM tree traversal and manipulation.
-\item \textbf{GitPython}: A Python library used to interact with Git repositories.
+\item \textbf{Django Framework}: A high-level Python web framework that encourages rapid development and clean, pragmatic design. \cite{django} 
+\item \textbf{Python}: The primary programming language used for developing the backend logic and machine learning models. \cite{python}
+\item \textbf{SQLite v3}: A lightweight, disk-based database used for storing user credentials, project details, and scanning results. \cite{sqlite} 
+\item \textbf{JavaScript}: Used for adding interactive elements to the web pages and handling client-side logic. \cite{javascript} 
+\item \textbf{HTML}: The standard markup language for creating web pages. \cite{html} 
+\item \textbf{CSS}: A style sheet language used for describing the presentation of the web pages. \cite{css} 
+\item \textbf{Bootstrap}: A front-end framework used for developing responsive and mobile-first web pages. \cite{bootstrap} 
+\item \textbf{Ajax}: A set of web development techniques used to create asynchronous web applications. \cite{ajax} 
+\item \textbf{jQuery}: A fast, small, and feature-rich JavaScript library used to simplify HTML DOM tree traversal and manipulation. \cite{jquery}
+\item \textbf{GitPython}: A Python library used to interact with Git repositories.  \cite{gitpython}
 \end{itemize}
 
 \section{Implementation}
@@ -51,7 +51,7 @@ SQLite v3 is used for database management, ensuring efficient data storage and r
 \subsection{AI Integration}
 The AI integration in the SafeScript project leverages advanced machine learning models to enhance the accuracy and efficiency of vulnerability detection. 
 At the moment the system is integrated with GPT API and LSTM model, which we have trained over past labs. 
-Beside, those two the system have the capability to be integrated with other AI models as well.
+Beside, those two the models have the capability to be integrated with other AI models as well.
 
 \subsubsection{Integrated ChatGPT API}
 The system integrates the ChatGPT API, enabling it to utilize the powerful capabilities of the ChatGPT model for analyzing code and identifying potential security vulnerabilities. 
@@ -116,49 +116,49 @@ Figure \ref{fig:dataStorage} shows the data storage in Sqlite database.
     \label{fig:dataStorage}
 \end{figure}
 
-\section{Challenges}
-The development and implementation of the Vulnerability Scanner project presented several challenges, particularly in the integration of AI models and prompt engineering. These challenges required innovative solutions to ensure seamless functionality and reliable performance.
+% \section{Challenges}
+% The development and implementation of the Vulnerability Scanner project presented several challenges, particularly in the integration of AI models and prompt engineering. These challenges required innovative solutions to ensure seamless functionality and reliable performance.
 
-\subsection{Integration of AI Models}
-The integration of AI models posed a significant challenge due to the need to support both the ChatGPT API and our in-house LSTM model. Each model has distinct requirements and operational characteristics, necessitating careful planning and execution to ensure smooth integration.
+% \subsection{Integration of AI Models}
+% The integration of AI models posed a significant challenge due to the need to support both the ChatGPT API and our in-house LSTM model. Each model has distinct requirements and operational characteristics, necessitating careful planning and execution to ensure smooth integration.
 
-\textbf{Challenge Details}:
+% \textbf{Challenge Details}:
 
-\begin{enumerate}
-\item \textbf{Different Architectures}: The ChatGPT API and the LSTM model operate on fundamentally different architectures. The ChatGPT API, provided by OpenAI, is a transformer-based model optimized for natural language understanding and generation, while the LSTM model is a recurrent neural network (RNN) variant designed specifically for sequential data analysis.
-\item \textbf{API Integration}: Integrating the external ChatGPT API involved ensuring secure and efficient communication with the OpenAI servers, handling API requests and responses, and managing API rate limits and potential latency.
-\item \textbf{Internal Model Management}: The LSTM model, being developed and hosted internally, required robust deployment infrastructure, including model serving, scaling, and maintenance.
-\end{enumerate}
+% \begin{enumerate}
+% \item \textbf{Different Architectures}: The ChatGPT API and the LSTM model operate on fundamentally different architectures. The ChatGPT API, provided by OpenAI, is a transformer-based model optimized for natural language understanding and generation, while the LSTM model is a recurrent neural network (RNN) variant designed specifically for sequential data analysis.
+% \item \textbf{API Integration}: Integrating the external ChatGPT API involved ensuring secure and efficient communication with the OpenAI servers, handling API requests and responses, and managing API rate limits and potential latency.
+% \item \textbf{Internal Model Management}: The LSTM model, being developed and hosted internally, required robust deployment infrastructure, including model serving, scaling, and maintenance.
+% \end{enumerate}
 
-\textbf{Solution}:
-\begin{enumerate}
-    \item \textbf{Unified Interface}: We developed a unified interface that abstracts the differences between the two models. This interface allows the system to interact with either model seamlessly, providing a consistent experience regardless of the selected AI model.
-    \item \textbf{API Wrapper}: For the ChatGPT API, we implemented a wrapper that handles API calls, error management, and response parsing. This wrapper ensures reliable communication and error handling when interacting with the external API.
-    \item \textbf{Model Server}: For the LSTM model, we set up a dedicated model server using Django and REST framework, enabling efficient model inference requests and scalable deployment. 
-    This server handles requests from the main application, processes the input data, and returns the analysis results.
-    \item \textbf{Configuration Management}: A configuration management system was implemented to manage model-specific settings and parameters, allowing the system to dynamically switch between the ChatGPT API and the LSTM model based on user preference.
-\end{enumerate}
+% \textbf{Solution}:
+% \begin{enumerate}
+%     \item \textbf{Unified Interface}: We developed a unified interface that abstracts the differences between the two models. This interface allows the system to interact with either model seamlessly, providing a consistent experience regardless of the selected AI model.
+%     \item \textbf{API Wrapper}: For the ChatGPT API, we implemented a wrapper that handles API calls, error management, and response parsing. This wrapper ensures reliable communication and error handling when interacting with the external API.
+%     \item \textbf{Model Server}: For the LSTM model, we set up a dedicated model server using Django and REST framework, enabling efficient model inference requests and scalable deployment. 
+%     This server handles requests from the main application, processes the input data, and returns the analysis results.
+%     \item \textbf{Configuration Management}: A configuration management system was implemented to manage model-specific settings and parameters, allowing the system to dynamically switch between the ChatGPT API and the LSTM model based on user preference.
+% \end{enumerate}
 
-\subsection{Prompt Engineering}
-Prompt engineering was another critical challenge due to the variability in responses from the AI models. Effective prompt engineering is essential for obtaining accurate and relevant results from the models.
+% \subsection{Prompt Engineering}
+% Prompt engineering was another critical challenge due to the variability in responses from the AI models. Effective prompt engineering is essential for obtaining accurate and relevant results from the models.
 
-\textbf{Challenge Details}:
-\begin{enumerate}
-\item \textbf{Response Variability}: The ChatGPT model, in particular, can generate diverse responses depending on the prompt's phrasing. 
-This variability can lead to inconsistent results, making it challenging to ensure the reliability of vulnerability detection.
-\item \textbf{Context Management}: Ensuring that the models receive sufficient context to accurately analyze code and identify vulnerabilities required careful crafting of prompts.
-\item \textbf{Error Handling}: Handling ambiguous or incorrect responses from the models necessitated robust error detection and correction mechanisms.
-\end{enumerate}
+% \textbf{Challenge Details}:
+% \begin{enumerate}
+% \item \textbf{Response Variability}: The ChatGPT model, in particular, can generate diverse responses depending on the prompt's phrasing. 
+% This variability can lead to inconsistent results, making it challenging to ensure the reliability of vulnerability detection.
+% \item \textbf{Context Management}: Ensuring that the models receive sufficient context to accurately analyze code and identify vulnerabilities required careful crafting of prompts.
+% \item \textbf{Error Handling}: Handling ambiguous or incorrect responses from the models necessitated robust error detection and correction mechanisms.
+% \end{enumerate}
 
-\textbf{Solution}:
+% \textbf{Solution}:
 
-\begin{enumerate}
-\item \textbf{Iterative Prompt Development}: We adopted an iterative approach to prompt development, continually refining the prompts based on testing and feedback. 
-This iterative process involved experimenting with different prompt structures and evaluating their impact on response quality.
-\item \textbf{Template-Based Prompts}: We designed template-based prompts that ensure consistency in the input provided to the models. These templates include placeholders for code snippets and context information, standardizing the prompts and reducing response variability.
-\item \textbf{Context Enrichment}: To provide sufficient context, we implemented mechanisms to extract relevant information from the code and include it in the prompts. This includes details about the code structure, dependencies, and known issues.
-\item \textbf{Post-Processing}: We developed post-processing algorithms to analyze and validate the responses from the AI models. These algorithms check for consistency, filter out irrelevant information, and ensure that the final output meets the required standards.
-\end{enumerate}
+% \begin{enumerate}
+% \item \textbf{Iterative Prompt Development}: We adopted an iterative approach to prompt development, continually refining the prompts based on testing and feedback. 
+% This iterative process involved experimenting with different prompt structures and evaluating their impact on response quality.
+% \item \textbf{Template-Based Prompts}: We designed template-based prompts that ensure consistency in the input provided to the models. These templates include placeholders for code snippets and context information, standardizing the prompts and reducing response variability.
+% \item \textbf{Context Enrichment}: To provide sufficient context, we implemented mechanisms to extract relevant information from the code and include it in the prompts. This includes details about the code structure, dependencies, and known issues.
+% \item \textbf{Post-Processing}: We developed post-processing algorithms to analyze and validate the responses from the AI models. These algorithms check for consistency, filter out irrelevant information, and ensure that the final output meets the required standards.
+% \end{enumerate}
 
-By addressing these challenges through thoughtful solutions, we were able to integrate the AI models effectively and enhance the reliability of the Vulnerability Scanner project. 
-This ensures that users receive accurate and actionable insights for improving the security of their software projects.
+% By addressing these challenges through thoughtful solutions, we were able to integrate the AI models effectively and enhance the reliability of the Vulnerability Scanner project. 
+% This ensures that users receive accurate and actionable insights for improving the security of their software projects.

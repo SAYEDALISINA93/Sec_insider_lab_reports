@@ -39,3 +39,8 @@ Charts
 Conclusion
 
 \contentsline {chapter}{\numberline {4}Discussion}{10}{}%
+
+complete the discussion and cover page.
+review and shorten the data storage.
+
+review everything once more time.
